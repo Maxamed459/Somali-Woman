@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.header {
+    background-color: #94326f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #f09837;
+}
+
+.logo {
+    width: 170px;
+}
+
+.logo img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn {
+    width: 130px;
+    padding: 7px;
+    background-color: #f09837;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: #94326f;
+    box-shadow: 0 0 10px #f09837;
+}
+
+/* hero section */
+.hero {
+    background-image: url("assets/banner-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.h1 {
+    padding-top: 15%;
+    padding-left: 8%;
+    font-size: 45px;
+    color: #94326f;
+    font-weight: 700;
+}
+.p {
+    padding-left: 8%;
+    font-size: 35px;
+    color: #94326f;
+    font-weight: lighter;
+    opacity: .7;
+
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 8%;
+}
+.download {
+    width: 180px;
+    padding: 7px;
+    background-color: transparent;
+    color: #94326f;
+    border: 3px solid #94326f;
+    border-radius: 0px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.download:hover {
+    box-shadow: 0 0 10px #94326f;
+}
+.donate {
+    width: 130px;
+    padding: 7px;
+    background-color: #f09837;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.donate:hover {
+    box-shadow: 0 0 10px #f09837;
+}
+
+/* about section */
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    padding:  0 10%;
+}
+
+.about .img {
+    width: 50%;
+    height: 100%;
+}
+
+.about .img img {
+    width: 100%;
+}
+.text {
+    width: 40%;
+    height: 100%;
+    margin-top: 10%;
+}
+.text p {
+    font-size: 18px;
+    color: #3e3e3e;
+}
+.text h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
